@@ -86,7 +86,6 @@ p {
     background-color: #2589bd;
 }
 
-/* I combined the repetitive classes that style the right hand box */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -94,7 +93,6 @@ p {
     color: #ffffff;
 }
 
-/* I changed the class name for the previous adjustment made. */
 .benefit-lead h3,
 .benefit-brand h3,
 .benefit-cost h3 {
@@ -102,7 +100,6 @@ p {
     text-align: center;
 }
 
-/* I changed the class name for the previous adjustment made. */
 .benefit-lead img, 
 .benefit-brand img,
 .benefit-cost img {
@@ -111,7 +108,6 @@ p {
     max-width: 150px;
 }
 
-/*I combined the three identical classes into one style*/
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -123,14 +119,12 @@ p {
     color: #ffffff;
 }
 
-/* I updated the name of this class to reflect the previous change. */
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
 
-/* I updated the name of this class to reflect the previous change. */
 .search-engine-optimization h2, 
 .online-reputation-management h2,
 .social-media-marketing h2 {
@@ -145,7 +139,6 @@ p {
     text-align: center;
 }
 
-/*I updated this to h4 to follow the header cascade updated in the html */
 .footer h4 {
     font-size: 20px;
 }
