@@ -8,6 +8,15 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,16 +50,6 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
-/* do i remove the img and put it in the html format? what is the best practice with images? */
 .hero {
     height: 800px;
     width: 100%;
@@ -86,83 +85,35 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
 /* I combined the repetitive classes that style the right hand box */
-.right-box {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* THIS NOTE CAN BE DELETED
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+.benefit-lead,
+.benefit-brand,
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-*/
 
 /* I changed the class name for the previous adjustment made. */
-.right-box h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* THIS NOTE CAN BE DELETED
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+.benefit-lead h3,
+.benefit-brand h3,
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-*/
 
 /* I changed the class name for the previous adjustment made. */
-.right-box img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* THIS NOTE CAN BE DELETED
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+.benefit-lead img, 
+.benefit-brand img,
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-*/
 
 /*I combined the three identical classes into one style*/
-.company-offerings {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* THIS NOTE CAN BE DELETED
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
+.search-engine-optimization,
+.online-reputation-management,
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -171,40 +122,21 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-*/
 
 /* I updated the name of this class to reflect the previous change. */
-.company-offerings img {
-    max-height: 200px;
-}
-
-/* THIS NOTE CAN BE DELETED
-.online-reputation-management img {
-    max-height: 200px;
-}
-
+.search-engine-optimization img,
+.online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
-*/
 
 /* I updated the name of this class to reflect the previous change. */
-.company-offerings h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* THIS NOTE CAN BE DELETED
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+.search-engine-optimization h2, 
+.online-reputation-management h2,
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-*/
 
 .footer {
     padding: 30px;
